@@ -1,4 +1,4 @@
-###Brief
+### Brief
 **Monitor is a lightweight minimalistic 
 console application for monitoring your device' 
 resources usage in real-time. It tracks:**
@@ -9,11 +9,11 @@ resources usage in real-time. It tracks:**
 > - `CPU`
 > - `Memory`
 
-`(Δ)` - shown as `unit/refresh-rate-in-seconds`  
-`↑` - sent  
-`↓` - received  
+- `(Δ)` - shown as `unit/refresh-rate-in-seconds`  
+- `↑` - sent  
+- `↓` - received  
 ---
-###Usage
+### Usage
 ```shell
 $ python monitor.py
 ```
@@ -21,7 +21,7 @@ $ python monitor.py
 $ python3 monitor.py
 ```
 ---
-###Custom refresh rate
+### Custom refresh rate
 ```shell
 $ python monitor.py -r 500
 ```
