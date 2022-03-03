@@ -29,7 +29,7 @@ resources usage in real-time. It tracks:**
 ---
 
 ### Installation
-The script requires python 3 to run: https://www.python.org/  
+The script may be run on any device, that can run [python3](https://www.python.org/)  
 
 Save the content of [monitor.py](https://raw.githubusercontent.com/cyberloafy/monitor/main/monitor.py) 
 to a file (named monitor.py if you wish) and run as shown in Usage section.
@@ -37,6 +37,12 @@ to a file (named monitor.py if you wish) and run as shown in Usage section.
 To download the file via terminal you may use:
 ```shell
 $ curl https://raw.githubusercontent.com/cyberloafy/monitor/main/monitor.py > monitor.py
+```
+(Should work on Linux, MacOS, and Windows 10)
+
+Then install the requirement:
+```shell
+$ pip install psutil
 ```
 
 ---
