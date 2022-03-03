@@ -15,6 +15,19 @@ resources usage in real-time. It tracks:**
 
 ---
 
+### Appearance
+```shell
+                               ...:..:.:::.:..:...                                
+                      .:.: REAL-TIME RESOURCES MONITOR :.:.                       
+                             (Refresh rate is 1000ms)                             
+
+ |    ↑ Packets |    ↓ Packets |     ↑ Bytes |     ↓ Bytes |      CPU |   Memory | 
+ | ------------ | ------------ | ----------- | ----------- | -------- | -------- | 
+ |     12.51k ▼ |       453  ▲ |    1.9 MB ▼ |  569.0 B  ▲ |  25.3% ▲ |  41.8% ▼ | 
+```
+
+---
+
 ### Installation
 The script requires python 3 to run: https://www.python.org/  
 
