@@ -36,28 +36,28 @@ to a file (named monitor.py if you wish) and run as shown in Usage section.
 
 To download the file via terminal you may use:
 ```shell
-$ curl https://raw.githubusercontent.com/cyberloafy/monitor/main/monitor.py > monitor.py
+curl https://raw.githubusercontent.com/cyberloafy/monitor/main/monitor.py > monitor.py
 ```
 (Should work on Linux, MacOS, and Windows 10)
 
 Then install the requirement:
 ```shell
-$ pip install psutil
+pip install psutil
 ```
 
 ---
 
 ### Usage
 ```shell
-$ python3 monitor.py
+python3 monitor.py
 ```
 #### Custom refresh rate
 ```shell
-$ python3 monitor.py -r MILLISECONDS
+python3 monitor.py -r MILLISECONDS
 ```
 e.g.
 ```shell
-$ python3 monitor.py -r 500
+python3 monitor.py -r 500
 ```
 
 ---
@@ -69,6 +69,6 @@ alias monitor="python3 monitor.py"
 ```  
 So the script could be run as following:  
 ```shell
-$ monitor
+monitor
 ```   
 More info on aliases and making them permanent here: https://linuxize.com/post/how-to-create-bash-aliases/
